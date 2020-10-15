@@ -1,0 +1,15 @@
+.bouton a { /*Bouton sans sourie dessus*/
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    background:url(bouton-orange.png) no-repeat;
+    color:white;
+    text-decoration:none;
+    float:center;
+    margin:2px;
+}
+    
+.bouton a:hover {/*Bouton avec sourie dessus*/
+    background:url(bouton-orange2.png) no-repeat;
+}

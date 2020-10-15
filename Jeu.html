@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="Jeu.css">
+    <meta charset="utf-8">
+</head>
+<body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Lobby</a>
+                </li>
+                <li>
+                    <a href="Jeu.html">Mon jeu</a>
+                </li>
+                <li>
+                    <a href="CVmenu.html">CV</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </p>
+    <div align=center><img src="giphy.gif"></div>
+    <h2><div align=center><b><p>GARDER A L'ESPRIT QUE MON JEU N'EST PAS TERMINEE</p></b></div></h2>
+    <h1><div class=under ; align=center><b><p>Histoire</p></b></div></h1>
+    <div align=center><p><b>(l'histoire n'est pas le résultat final, quelque changement pouront arriver)</b></p></div>
+    
+    <div class=jeu>
+    <p>Après des années a chassé les dragons aux service des rois, Ronan décida de s'installer dans un cabanon au milieu d'un bois afin de profité de sa retraitre.</p>
+    <p>Cependant, une jeune fan trouva sa maison et demanda à Ronan de l'aider à devenir la prochaine chasseuse de dragon.</p>
+    <p>Cela étant un bout de temp qu'il n'est pas partie en chasse, Ronan accepta de la prendre sous sa garde afin de faire en sorte qu'avec elle, les châteaux seront en sécurité.</p>
+    </div>
+
+    <h1><div class=under ; align=center><b><p>Gameplay</p></b></div></h1>
+    <p></p>
+
+    <h1><div class=under ; align=center><b><p>Moteur</p></b></div></h1>
+    
+    <div class=jeu>
+    <p>Le jeu a était créé avec RPG Maker MV, une application qui, comme son nom l'indique, créé des jeux de style RPG.</p>
+    <p>Ce moteur est facilement utilisable pour les débutants et très modelisable pour les experts en Javascrypt car RPG MV permet d'installer des petit plugin changeant certain aspect du jeu (interface, animation, combat en temp réel, etc...).</p>
+    
+    <p>Il permet aussi de créé des personnages à partir d'élément de base (cheveux, corp, accesoire,...) afin de diversifié les personnages.</p>
+    <p>L'utilissateur peut aussi ajouter ses propres élément, en respectant tout de même les dimensions demander.</p>
+    
+    <p>Les musiques peuvent étre modifié afin qu'elle puissent passser d'aigue à grave, de fort à faible et de tordue à droite.</p>
+    <p>Cependant, les musiques doivent étre accompagné d'un fichier TXT afin de pouvoir créé une boucle dans la musique.</p>
+    <p>Cette boucle doit étre inscrite dans le fichier TXT avec un début et une fin en milliseconde (étant l'une des partie compliqué du programme, j'ai du m'aider d'une application a part qui permetter de piquer la milliseconde parfaite entre les boucles).</p>
+    
+    <p>Une partie création de map est disponible afin de créé la map de A à Z, il suffit juste de choisir les dimensions de la carte et quelle type d'environnement il est (carte du monde, village, chateaux, forét, etc...)</p>
+    <p>Cette parties est l'âme de votre jeu car les événements, placement de ennemies/coffre et PNG seront fabriqué içi.</p>
+
+    <p>Les création des ennemies est plutôt simple d'utilisation afin de facilité les débutants à comprendre le fonctionnement.</p>
+    </div>
+
+    <p><div class=pic><img src=Monstre.png height="552" width="770"></div></p>
+
+    <div class=jeu>
+    <p>Les capacités des ennemies seront les mêmes que ceux des héros, cependant vous pouvez créé des compétence réservé aux héros comme aux ennemies.</p>
+
+    <p>La création des héros fonctionne presque comme les ennemies à quelque différence prét.</p>
+    </div>
+
+    <p><div class=pic><img src=Perso.png height="552" width="770"></div></p>
+
+    <div class=jeu>
+    <p>Les héros peuvent apprendre des compétence au fur et a mesure qu'il gagne en niveaux, afin que le personnage ne soit pas laisser à la traine par les nouveaux venu pendant l'aventure.</p>
+    <p>Il y a un nombre limité de héros comme des ennemies, ainsi que les armes, armures, objet et compétence (la plupart des jeux créé a partir de ce moteur remplisse à 100% cette limite)</p>
+
+    <p>Aprés s'ensuit la partie des création des armes, armures, capacité et objet.</p>
+    <p>Les armes et armures ont le même type de fonctionnement, étant les plus simple à modifié.</p>
+    </div>
+    
+    <p><div class=pic><img src=Arme.png height="552" width="770"></div></p>
+    
+    <div class=jeu>
+    <p>Les capacités ont d'autre type d'option en rapport aux attaque spéciale (attaque de zone, attaque ciblé, etc...). Cette partie requier beaucoup d'entretient, car certaine capacité créé peuvent étre trop forte ou inutile plus tard dans le jeu.</p>
+    </div>
+
+    <p><div class=pic><img src=capacite.png height="552" width="770"></div></p>
+    
+    <div class=jeu>
+    <p>Les objets doivent étre différencié entre un objet clé et un objet de combat, car il serait idiot d'utiliser un objet avec aucun effet bénefique en combat.</p>
+    </div>
+
+    <p><div class=pic><img src=Item.png height="552" width="770"></div></p>
+
+    <div class=jeu>
+    <p>On atteint la partie la plus compliqué du programme, l'animation des effets.</p>
+    <p>Aillant des effets de base dans le programme, les débutant cherchant juste à créé un petit jeu ne prendront pas grande importance.</p>
+    <p>Pour les plus ambittieux, cette partie permet de créé vos propre effet de compétence/attaque avec des sons et images animés.</p>
+    <p>Cela requier une précision et une bonne connaisance des "tick" dans les animations afin d'avoir un résultats satisfesant</p>
+    </div>
+
+    <p><div class=pic><img src=Animation.png height="552" width="770"></div></p>
+
+    <div class=jeu>
+    <p>La derniére partie est juste des options de base comme le nombre d'acteur (personnage) au début de la partie </p>
+    <p>Il permet aussi de changer entre la vue des personnage ou vue de côté (personnage d'un côté et l'ennemies de l'autre).</p>
+    </div>
+
+    <h1><div class=under ; align=center><b><p>Les différent Scrypt</p></b></div></h1>
+    
+    <div class=jeu>
+    <p>Ayant était intérresser par le fait de pouvoir insérer des plugin en JavaScrypt sur le jeu, j'ai commencé à apprendre de mon côté le JavaScrypt afin de pouvoir faire de mon jeu un jeu qui "s'évade du monde"</p>
+    <p>Suivant quelque tuto, j'ai pu insérer un plugin permettant de pouvoir différent choix lors de la mort du joueur (entre ressayer le combat, quitter et charger la sauvegarde).</p>
+    <p>Si le joueur veux ressayer le combat, il sera acceuilli par un écran permettant de changer l'équipement et d'utiliser des objets afin d'avoir un certain avantage tactique.</p>
+    
+    <p>J'ai aussi fait en sorte d'avoir des compétence de "job" et de d' "armement" sur les personnages</p>
+    <p>Ceci permet au joueur de créé des équipe composé de plusieur archer ou de magicien, ainsi que toute autre profession.</p>
+    
+    <p>Des points de statistique peuvent étre appliqué après chaque passage de niveaux du personnage, afin de pouvoir pencher les rôles des personnages (que ca soit tank ou attaquand, physique ou magique)</p>
+    
+    <p>Le reste des plugin que j'ai ajouté sont juste de l'esthetique (barre de vie/mana/TP simplifié, barre des stats ajouté, menu réarrangé, etc...)</p>
+    </div>
+
+    <h1><div class=under ; align=center><b><p>Mes projet "abandonnée" ou "raté"</p></b></div></h1>
+    
+    <div class=jeu>
+    <p>Avant de me pencher sur ce projet, j'ai fait quelque essaye avec d'autre idée en tête, qui n'ont jamais vu le jour par manque d'inspiration ou d'originalité.</p>
+    <p>Ma premiére idée fut une "attaque de tour" ou "tower attack" en anglais, qui consister à une tour avec une multitude d'étage garder par un boss à la fin</p>
+    <p>Mais en terminant le 2eme étage, j'ai su que ce n'était pas si original que ça, et qu'il n'y avait pas d'histoire qui tenait, donc j'ai arréter ce projet.</p>
+   
+    <p>Mon deuxiéme projet était un jeu pseudo horreur qui n'a pas duré long feu car j'ai trouvé cette idée totalement stupide. (Je n'ai même pas terminé la premiére carte)</p>
+    </div>
+
+</body>
+</html>
+
